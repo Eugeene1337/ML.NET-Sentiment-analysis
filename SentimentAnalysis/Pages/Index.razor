@@ -1,0 +1,67 @@
+﻿@page "/"
+@using Shared
+
+<h1>Review</h1>
+
+<div class="text-center">
+    <h2>Live Sentiment</h2>
+
+    <p><textarea @oninput="UpdateScore" cols="45" placeholder="Type any text like a short product review"></textarea></p>
+
+    <div class="sentiment">
+        <h4>Your sentiment is...</h4>
+        <p>😡 😐 😍</p>
+
+        <div class="marker">
+            <div id="markerPosition" style="left: @MarkerPosition()%;">
+                <div>▲</div>
+                <label id="markerValue">@ResultText()</label>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+@code{
+
+    public int sentiment = 0;
+
+    void UpdateScore(ChangeEventArgs evt)
+    {
+        var text = (string)evt.Value;
+        sentiment = SentimentAnalysis.Services.Sentiment.EvaluatePrediction(text);
+    }
+
+    string ResultText()
+    {
+        switch (sentiment)
+        {
+            case 1:
+                return "Positive";
+            case -1:
+                return "Negative";
+            case 0:
+                return "Neutral";
+            default:
+                return "Neutral";
+        }
+    }
+
+    int MarkerPosition()
+    {
+        switch (sentiment)
+        {
+            case 1:
+                return 100;
+            case -1:
+                return 0;
+            case 0:
+                return 45;
+            default:
+                return 45;
+        }
+    }
+
+}
+

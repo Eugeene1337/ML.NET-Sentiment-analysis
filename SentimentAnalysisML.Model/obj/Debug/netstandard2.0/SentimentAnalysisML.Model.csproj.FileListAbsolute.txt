@@ -1,0 +1,10 @@
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\bin\Debug\netstandard2.0\SentimentAnalysisML.Model.deps.json
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\bin\Debug\netstandard2.0\SentimentAnalysisML.Model.dll
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\bin\Debug\netstandard2.0\SentimentAnalysisML.Model.pdb
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.csproj.AssemblyReference.cache
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.AssemblyInfoInputs.cache
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.AssemblyInfo.cs
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.csproj.CoreCompileInputs.cache
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.dll
+C:\Users\zheny\source\repos\SentimentAnalysis\SentimentAnalysisML.Model\obj\Debug\netstandard2.0\SentimentAnalysisML.Model.pdb
